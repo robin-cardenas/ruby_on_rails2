@@ -11,6 +11,14 @@ gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+
+gem 'minitest'
+
+gem 'devise'
+
+gem 'devise-token_authenticatable'
+
+gem 'responders'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
