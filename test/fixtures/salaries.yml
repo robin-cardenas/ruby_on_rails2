@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  base_salary: 
+  initial_date: 2023-04-30
+  final_date: 2023-04-30
+  employee: one
+
+two:
+  base_salary: 
+  initial_date: 2023-04-30
+  final_date: 2023-04-30
+  employee: two

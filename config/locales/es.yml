@@ -1,0 +1,49 @@
+es:
+  activerecord:
+    errors:
+      models:
+        payroll:
+          attributes:
+            period_id:
+              blank: "El ID del periodo no puede ir vacio"
+              required: "El ID del periodo es obligatorio"
+              invalid: "El ID del periodo es invalido"
+            company_id:
+              blank: "El ID de la compañia no puede ir vacío"
+              required: "El ID del compañia es obligatorio"
+              invalid: "El ID del compañia es invalido"
+            company:
+              required: "Debe asignar una compañia"
+            employee_id:
+              blank: "El ID del empleado no puede ir vacío"
+              required: "El ID del empleado es obligatorio"
+              invalid: "El ID del empleado es invalido"
+            other_income:
+              not_a_number: "El ingreso debe ser un entero"
+        user:
+          attributes:
+            company_id:
+              required: "Debe asignar una compañia al usuario"
+              invalid: "El ID de la compañia es invalido"
+              blank: "El ID de la compañia no puede ir vacío"
+            email:
+              required: "Debe asignar un correo al usuario"
+              invalid: "El correo es invalido"
+              blank: "El correo no puede ir vacío"
+              taken: "El correo ya se encuentra registrado"
+            password:
+              too_short: "La contraseña debe tener al menos 6 caracteres"
+            password_confirmation:
+              confirmation: "Las contraseñas no coinciden"
+        salary:
+          attributes:
+            employee_id:
+              required: "El ID del empleado es obligatorio"
+              invalid: "El ID del empleado es invalido"
+              not_a_number: "El ID del empleado debe ser un enetero"
+            base_salary:
+              required: "El salario base es obligatorio"
+              not_a_number: "El salario base debe ser un entero"
+              blank: "El salario base no puede ir vacío"
+              invalid: "El salario base es invalido"
+
