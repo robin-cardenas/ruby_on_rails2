@@ -7,7 +7,7 @@ class PayrollsController < ApplicationController
   end
 
   def index
-    @payrolls = Payroll.where(company_id: current_user.company_id)
+    @payrolls = Payroll.all
   end
 
   def show
@@ -51,11 +51,5 @@ class PayrollsController < ApplicationController
 
     def payroll_params
       params.require(:payroll).permit(:employee_id, :company_id, :period_id, :other_income, :non_salaries, :other_deductions)
-    end
-
-    def authorized_user!
-      if current_user.company_id == @payroll.company_id
-        
-      end
     end
 end

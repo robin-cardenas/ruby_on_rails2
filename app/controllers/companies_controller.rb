@@ -3,7 +3,7 @@ class CompaniesController < ApplicationController
   before_action :authenticate_user!, except: [:create]
 
   def index
-    @companies = Company.where(id: current_user.company_id)
+    @companies = Company.all
   end
 
   def show
