@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  income: 
+  deductions: 
+  social_security: 
+  parafiscal_contributions: 
+  social_benefits: 
+  employee_pay: 
+  total_cost: 
+  employee: one
+  company: one
+
+two:
+  income: 
+  deductions: 
+  social_security: 
+  parafiscal_contributions: 
+  social_benefits: 
+  employee_pay: 
+  total_cost: 
+  employee: two
+  company: two

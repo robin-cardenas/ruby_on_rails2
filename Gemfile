@@ -18,7 +18,9 @@ gem 'devise'
 
 gem 'devise-token_authenticatable'
 
-gem 'responders'
+gem 'jwt'
+
+# gem 'responders'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
